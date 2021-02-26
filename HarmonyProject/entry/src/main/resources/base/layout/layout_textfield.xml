@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <TextField
+        ohos:id="$+id:tfShow"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:center_in_parent="true"
+        ohos:hint="hint something"
+        ohos:hint_color="#FFF1CEBF"
+        ohos:left_padding="20vp"
+        ohos:margin="15vp"
+        ohos:text_alignment="vertical_center"
+        ohos:text_color="white"
+        ohos:text_size="20fp"/>
+</DependentLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DatePicker
+        ohos:id="$+id:dp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#FF95E0D0"
+        ohos:normal_text_color="#FF1A0404"
+        ohos:selected_text_color="#FF801010"
+        ohos:text_size="15fp"
+        ohos:top_margin="150vp">
+    </DatePicker>
+
+    <Text
+        ohos:id="$+id:tvDate"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$id:dp"
+        ohos:horizontal_center="true"
+        ohos:margin="8vp"
+        ohos:padding="4vp"
+        ohos:text_size="14fp"
+        ohos:top_margin="20vp"/>
+
+</DependentLayout>

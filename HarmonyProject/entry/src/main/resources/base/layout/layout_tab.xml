@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:tvClick"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Add"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="15fp"
+        ohos:top_margin="10vp"/>
+
+    <TabList
+        ohos:id="$+id:tab_list"
+        ohos:height="36vp"
+        ohos:width="match_parent"
+        ohos:fixed_mode="false"
+        ohos:normal_text_color="#999999"
+        ohos:orientation="horizontal"
+        ohos:selected_tab_indicator_color="#FF813B3B"
+        ohos:selected_tab_indicator_height="2vp"
+        ohos:selected_text_color="#FF240808"
+        ohos:tab_length="60vp"
+        ohos:tab_margin="24vp"
+        ohos:text_alignment="center"
+        ohos:text_size="16fp"
+        ohos:top_margin="20vp"/>
+
+</DirectionalLayout>

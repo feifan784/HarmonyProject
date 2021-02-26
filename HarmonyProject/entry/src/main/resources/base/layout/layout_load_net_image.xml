@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:btLoad"
+        ohos:height="60vp"
+        ohos:width="150vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Show Net Image"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"/>
+
+    <Image
+        ohos:id="$+id:ivLoad"
+        ohos:height="200vp"
+        ohos:width="match_parent"
+        ohos:scale_mode="stretch"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="50vp"/>
+
+</DirectionalLayout>

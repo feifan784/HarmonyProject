@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <TimePicker
+        ohos:id="$+id:tp"
+        ohos:height="160vp"
+        ohos:width="match_parent"
+        ohos:am_pm_order="1"
+        ohos:normal_text_color="#999999"
+        ohos:normal_text_size="16fp"
+        ohos:operated_text_color="#FF541251"
+        ohos:selected_normal_text_margin_ratio="2"
+        ohos:selected_text_size="18fp"
+        ohos:top_margin="150vp"/>
+
+    <Text
+        ohos:id="$+id:tvTime"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:below="$id:tp"
+        ohos:horizontal_center="true"
+        ohos:margin="8vp"
+        ohos:padding="4vp"
+        ohos:text_size="14fp"
+        ohos:top_margin="20vp"/>
+
+</DependentLayout>

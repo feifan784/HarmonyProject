@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:tvNavigation"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:left_margin="30vp"
+        ohos:right_margin="30vp"
+        ohos:text="Navigation Ability"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="50"
+        ohos:top_margin="10vp"/>
+
+    <Text
+        ohos:id="$+id:tvUI"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:left_margin="30vp"
+        ohos:right_margin="30vp"
+        ohos:text="UI Ability"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="50"
+        ohos:top_margin="10vp"/>
+
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="10vp">
+
+        <Text
+            ohos:id="$+id:tvThreadManage"
+            ohos:height="40vp"
+            ohos:width="0"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="10vp"
+            ohos:right_margin="5vp"
+            ohos:text="Manage"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="50"
+            ohos:weight="1"/>
+
+        <Text
+            ohos:id="$+id:text_handler"
+            ohos:height="match_parent"
+            ohos:width="0"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="5vp"
+            ohos:right_margin="10vp"
+            ohos:text="Handler"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="50"
+            ohos:weight="1"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="10vp">
+
+        <Text
+            ohos:id="$+id:text_animator"
+            ohos:height="match_parent"
+            ohos:width="0"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="10vp"
+            ohos:right_margin="10vp"
+            ohos:text="Animator"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="50"
+            ohos:weight="1"/>
+
+    </DirectionalLayout>
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:left_margin="30vp"
+        ohos:right_margin="30vp"
+        ohos:text="Change Count 0"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="50"
+        ohos:top_margin="10vp"/>
+
+    <Button
+        ohos:id="$+id:button_count"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:padding="15vp"
+        ohos:text="Click To Add 1"
+        ohos:text_color="white"
+        ohos:text_size="18fp"
+        ohos:top_margin="10vp"/>
+
+</DirectionalLayout>

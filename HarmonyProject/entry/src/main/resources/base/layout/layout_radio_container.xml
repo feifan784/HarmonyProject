@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <RadioContainer
+        ohos:id="$+id:rc1"
+        ohos:height="160vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:center_in_parent="true"
+        ohos:layout_alignment="horizontal_center">
+
+        <RadioButton
+            ohos:id="$+id:rb1"
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:text="A. China is No.1"
+            ohos:text_color_off="#232323"
+            ohos:text_color_on="#FF2952B4"
+            ohos:text_size="16fp"/>
+
+        <RadioButton
+            ohos:id="$+id:rb2"
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:text="B. China is No.2"
+            ohos:text_color_off="#232323"
+            ohos:text_color_on="#FF2952B4"
+            ohos:text_size="16fp"/>
+
+        <RadioButton
+            ohos:id="$+id:rb3"
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:text="C. China is No.3"
+            ohos:text_color_off="#232323"
+            ohos:text_color_on="#FF2952B4"
+            ohos:text_size="16fp"/>
+
+        <RadioButton
+            ohos:id="$+id:rb4"
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:text="D. China is No.4"
+            ohos:text_color_off="#232323"
+            ohos:text_color_on="#FF2952B4"
+            ohos:text_size="16fp"/>
+
+    </RadioContainer>
+
+</DependentLayout>

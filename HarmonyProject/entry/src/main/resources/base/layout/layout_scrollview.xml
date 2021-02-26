@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <ScrollView
+        ohos:id="$+id:scrollview"
+        ohos:height="300vp"
+        ohos:width="300vp"
+        ohos:background_element="#FFDEAD"
+        ohos:bottom_padding="16vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="32vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="300vp"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="16vp"/>
+            <!-- 放置任意需要展示的组件 -->
+            <Image
+                ohos:height="match_content"
+                ohos:width="300vp"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="16vp"/>
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="300vp"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="16vp"/>
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="300vp"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="16vp"/>
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="300vp"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="16vp"/>
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="300vp"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="16vp"/>
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="300vp"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="16vp"/>
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="300vp"
+                ohos:image_src="$media:icon"
+                ohos:top_margin="16vp"/>
+        </DirectionalLayout>
+    </ScrollView>
+</DirectionalLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:btAnimatorValue"
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:track_on_element"
+        ohos:text="AV"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"/>
+    <Button
+        ohos:id="$+id:btAnimatorProperty"
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:track_on_element"
+        ohos:text="AV"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="20vp"/>
+
+</DirectionalLayout>

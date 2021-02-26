@@ -1,0 +1,85 @@
+{
+  "app": {
+    "bundleName": "com.example.myapplication",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta2"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.myapplication",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.ability.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "鸿蒙OS Demo",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.ability.NavigationAbility",
+        "icon": "$media:icon",
+        "description": "$string:navigationactivity_description",
+        "label": "Navigation Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.ability.UIAbility",
+        "icon": "$media:icon",
+        "description": "$string:uiability_description",
+        "label": "UI Ability",
+        "type": "page",
+        "launchType": "standard",
+        "permissions": [
+          "ohos.permission.INTERNET"
+        ]
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.CAMERA",
+        "reason": "test",
+        "usedScene": {
+          "ability": [
+            "com.example.myapplication.ability.UIAbility"
+          ],
+          "when": "always"
+        }
+      }
+    ]
+  }
+}

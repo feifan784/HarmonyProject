@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="80vp"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal"
+    ohos:padding="8vp">
+
+    <Image
+        ohos:id="$+id:ima_setting"
+        ohos:height="match_parent"
+        ohos:width="0"
+        ohos:layout_alignment="vertical_center"
+        ohos:weight="2">
+    </Image>
+
+    <Text
+        ohos:id="$+id:text_setting"
+        ohos:height="match_content"
+        ohos:width="0"
+        ohos:end_padding="8vp"
+        ohos:layout_alignment="vertical_center"
+        ohos:padding="4fp"
+        ohos:start_padding="8vp"
+        ohos:text_size="20fp"
+        ohos:weight="6"/>
+
+    <Switch
+        ohos:id="$+id:switch_setting"
+        ohos:height="20vp"
+        ohos:width="0vp"
+        ohos:layout_alignment="vertical_center"
+        ohos:weight="1"/>
+
+</DirectionalLayout>

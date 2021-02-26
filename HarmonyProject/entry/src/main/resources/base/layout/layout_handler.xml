@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:tvCount"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_text"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="0"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="20vp"/>
+
+    <Button
+        ohos:id="$+id:btOne"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_text"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="ONE"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="15vp"/>
+
+    <Button
+        ohos:id="$+id:btTwo"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_text"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="TWO"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="15vp"/>
+
+    <Button
+        ohos:id="$+id:btThree"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_text"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="THREE"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="15vp"/>
+
+</DirectionalLayout>

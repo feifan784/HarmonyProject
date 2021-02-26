@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <Text
+        ohos:id="$+id:text"
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:background_element="$graphic:background_basic"
+        ohos:center_in_parent="true"
+        ohos:text="This is a Text"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="20fp"/>
+
+</DependentLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:layout_alignment="horizontal_center"
+        ohos:orientation="horizontal"
+        ohos:top_margin="10vp">
+
+        <Text
+            ohos:id="$+id:tvText"
+            ohos:height="40vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="center"
+            ohos:left_margin="10vp"
+            ohos:text="Text"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="16fp"/>
+
+        <Text
+            ohos:id="$+id:tvButton"
+            ohos:height="40vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="10vp"
+            ohos:text="Button"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="16fp"/>
+
+        <Text
+            ohos:id="$+id:tvTextField"
+            ohos:height="40vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="10vp"
+            ohos:text="TextField"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="16fp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:layout_alignment="horizontal_center"
+        ohos:orientation="horizontal"
+        ohos:top_margin="10vp">
+
+        <Text
+            ohos:id="$+id:tvImage"
+            ohos:height="40vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="10vp"
+            ohos:text="Image"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="16fp"/>
+
+        <Text
+            ohos:id="$+id:tvTab"
+            ohos:height="40vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="10vp"
+            ohos:text="TabList / Tab"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="16fp"/>
+
+        <Text
+            ohos:id="$+id:tvPicker"
+            ohos:height="40vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="10vp"
+            ohos:text="Picker"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="16fp"/>
+    </DirectionalLayout>
+
+    <Text
+        ohos:id="$+id:tvDatePicker"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="DatePicker"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="10vp"/>
+
+    <Text
+        ohos:id="$+id:tvTimePicker"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="TimePicker"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="10vp"/>
+
+    <Text
+        ohos:id="$+id:tvSwitch"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Switch"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="10vp"/>
+
+    <Text
+        ohos:id="$+id:tvRadioButton"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="RadioButton"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="10vp"/>
+
+    <Text
+        ohos:id="$+id:tvRadioContainer"
+        ohos:height="40vp"
+        ohos:width="120vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="RadioContainer"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="10vp"/>
+
+    <Text
+        ohos:id="$+id:tvCheckBox"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="CheckBox"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="10vp"/>
+
+    <Text
+        ohos:id="$+id:tvProgress"
+        ohos:height="40vp"
+        ohos:width="200vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Progress / RoundProgress"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="10vp"/>
+
+    <Text
+        ohos:id="$+id:tvScrollView"
+        ohos:height="40vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="ScrollView"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="10vp"/>
+
+    <Text
+        ohos:id="$+id:tvListContainer"
+        ohos:height="40vp"
+        ohos:width="120vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="ListContainer"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="16fp"
+        ohos:top_margin="10vp"/>
+</DirectionalLayout>
