@@ -91,6 +91,42 @@
 
     </DirectionalLayout>
 
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:top_margin="10vp">
+
+        <Text
+            ohos:id="$+id:tvStartService"
+            ohos:height="match_parent"
+            ohos:width="0"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="10vp"
+            ohos:right_margin="5vp"
+            ohos:text="Start Service"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="50"
+            ohos:weight="1"/>
+
+        <Text
+            ohos:id="$+id:tvConnectService"
+            ohos:height="match_parent"
+            ohos:width="0"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="5vp"
+            ohos:right_margin="10vp"
+            ohos:text="Connect Service"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="50"
+            ohos:weight="1"/>
+
+    </DirectionalLayout>
+
     <Text
         ohos:id="$+id:text_helloworld"
         ohos:height="40vp"

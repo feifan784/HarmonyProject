@@ -64,11 +64,34 @@
         "permissions": [
           "ohos.permission.INTERNET"
         ]
+      },
+      {
+        "name": "com.example.myapplication.service.OneServiceAbility",
+        "type": "service",
+        "visible": true,
+        "backgroundModes": [
+          "dataTransfer",
+          "location"
+        ]
+      },
+      {
+        "permissions": [
+          "com.example.myapplication.DataAbilityShellProvider.PROVIDER",
+          "com.example.myapplication5.DataAbility.DATA"
+        ],
+        "name": "com.example.myapplication.MyDataAbility",
+        "icon": "$media:icon",
+        "description": "$string:mydataability_description",
+        "type": "data",
+        "uri": "dataability://com.example.myapplication.MyDataAbility"
       }
     ],
     "reqPermissions": [
       {
         "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
       },
       {
         "name": "ohos.permission.CAMERA",
@@ -79,6 +102,15 @@
           ],
           "when": "always"
         }
+      },
+      {
+        "name": "com.example.myapplication5.DataAbility.DATA"
+      },
+      {
+        "name": "ohos.permission.READ_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.WRITE_USER_STORAGE"
       }
     ]
   }
