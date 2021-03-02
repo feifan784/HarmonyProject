@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.data;
 
 import com.example.myapplication.bean.BookStore;
 import ohos.aafwk.ability.Ability;

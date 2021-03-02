@@ -15,7 +15,7 @@
   "deviceConfig": {},
   "module": {
     "package": "com.example.myapplication",
-    "name": ".MyApplication",
+    "name": "com.example.myapplication.application.MyApplication",
     "deviceType": [
       "phone"
     ],
@@ -79,11 +79,20 @@
           "com.example.myapplication.DataAbilityShellProvider.PROVIDER",
           "com.example.myapplication5.DataAbility.DATA"
         ],
-        "name": "com.example.myapplication.MyDataAbility",
+        "name": "com.example.myapplication.data.MyDataAbility",
         "icon": "$media:icon",
         "description": "$string:mydataability_description",
         "type": "data",
         "uri": "dataability://com.example.myapplication.MyDataAbility"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.myapplication.ability.MoveAbility",
+        "icon": "$media:icon",
+        "description": "$string:moveability_description",
+        "label": "Move",
+        "type": "page",
+        "launchType": "standard"
       }
     ],
     "reqPermissions": [

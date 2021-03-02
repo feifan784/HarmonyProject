@@ -128,6 +128,20 @@
     </DirectionalLayout>
 
     <Text
+        ohos:id="$+id:tvMainMove"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:text="Move"
+        ohos:text_alignment="center"
+        ohos:text_color="white"
+        ohos:text_size="50"
+        ohos:top_margin="10vp"/>
+
+    <Text
         ohos:id="$+id:text_helloworld"
         ohos:height="40vp"
         ohos:width="match_parent"

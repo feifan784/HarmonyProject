@@ -17,12 +17,16 @@
       "value": "Java_Phone_Empty Feature Ability"
     },
     {
-      "name": "HelloWorld",
-      "value": "Hello World"
-    },
-    {
       "name": "mydataability_description",
       "value": "hap sample empty provider"
+    },
+    {
+      "name": "moveability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "HelloWorld",
+      "value": "Hello World"
     }
   ]
 }

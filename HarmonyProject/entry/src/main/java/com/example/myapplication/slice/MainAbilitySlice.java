@@ -50,33 +50,46 @@ public class MainAbilitySlice extends AbilitySlice {
         Text tvThreadManage = (Text) findComponentById(ResourceTable.Id_tvThreadManage);
         Text tvStartService = (Text) findComponentById(ResourceTable.Id_tvStartService);
         Text tvConnectService = (Text) findComponentById(ResourceTable.Id_tvConnectService);
+        Text tvMainMove = (Text) findComponentById(ResourceTable.Id_tvMainMove);
 
-        tvConnectService.setClickedListener(new Component.ClickedListener() {
+        tvMainMove.setClickedListener(new Component.ClickedListener() {
             @Override
             public void onClick(Component component) {
-                Intent intentConnect = new Intent();
+                Intent intent1 = new Intent();
+
+                // 通过Intent中的OperationBuilder类构造operation对象，指定设备标识（空串表示当前设备）、应用包名、Ability名称
                 Operation operation = new Intent.OperationBuilder()
                         .withDeviceId("")
                         .withBundleName("com.example.myapplication")
-                        .withAbilityName("com.example.myapplication.service.OneServiceAbility")
+                        .withAbilityName("com.example.myapplication.ability.MoveAbility")
                         .build();
-                intentConnect.setOperation(operation);
-                connectAbility(intentConnect, connection);
+
+                // 把operation设置到intent中
+                intent1.setOperation(operation);
+                startAbility(intent1);
             }
         });
 
-        tvStartService.setClickedListener(new Component.ClickedListener() {
-            @Override
-            public void onClick(Component component) {
-                Intent intentStart = new Intent();
-                Operation operation = new Intent.OperationBuilder()
-                        .withDeviceId("")
-                        .withBundleName("com.example.myapplication")
-                        .withAbilityName("com.example.myapplication.service.OneServiceAbility")
-                        .build();
-                intentStart.setOperation(operation);
-                startAbility(intentStart);
-            }
+        tvConnectService.setClickedListener(component -> {
+            Intent intentConnect = new Intent();
+            Operation operation = new Intent.OperationBuilder()
+                    .withDeviceId("")
+                    .withBundleName("com.example.myapplication")
+                    .withAbilityName("com.example.myapplication.service.OneServiceAbility")
+                    .build();
+            intentConnect.setOperation(operation);
+            connectAbility(intentConnect, connection);
+        });
+
+        tvStartService.setClickedListener(component -> {
+            Intent intentStart = new Intent();
+            Operation operation = new Intent.OperationBuilder()
+                    .withDeviceId("")
+                    .withBundleName("com.example.myapplication")
+                    .withAbilityName("com.example.myapplication.service.OneServiceAbility")
+                    .build();
+            intentStart.setOperation(operation);
+            startAbility(intentStart);
         });
 
         tvThreadManage.setClickedListener(component -> present(new ThreadManageAbilitySlice(), new Intent()));
